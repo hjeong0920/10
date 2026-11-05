@@ -2,12 +2,9 @@
 #include <string.h>
 
 int main(void){
-    char src[]= "The worsk things to eat before you sleep";
-    char dst[100];
+    char str[30] = "happy C programming";
 
-    strcpy(dst, src);
-
-    printf("copied string : %s\n", dst);
-
+    printf("length of String \"%s\"  : %zu\n", str, strlen(str));
+    
     return 0;
 }
